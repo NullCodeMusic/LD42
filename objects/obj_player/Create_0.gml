@@ -11,3 +11,5 @@ space=hp
 ds_list_add(global.genList,id)
 ds_list_add(global.actorList,id)
 cooldown = 0
+pwr = ""
+pwrtime = 0

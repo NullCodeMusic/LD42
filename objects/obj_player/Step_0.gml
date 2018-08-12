@@ -83,7 +83,9 @@ if(mouse_check_button(mb_left)&&cooldown<=0){
 		
 	}
 
-	cooldown = 18
+	
+	if pwr = "firerateup" then cooldown = 6
+	else cooldown = 18
 	
 }
 
@@ -106,3 +108,10 @@ if(hp<=0){
 instance_destroy()
 
 }
+
+
+
+if pwrtime > 0 { pwrtime --}
+else pwr= ""
+
+

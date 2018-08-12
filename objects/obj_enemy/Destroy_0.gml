@@ -16,3 +16,5 @@ global.spaceDecay/=1.2
 global.shake=5
 
 global.enemyScore++
+
+if irandom(5) = 5 then instance_create_depth(x,y,0,obj_pwr_firerateup)

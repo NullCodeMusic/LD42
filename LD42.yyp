@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "04a4a071-5f6a-4cf7-947c-2fc4cda9e34e",
+            "Value": {
+                "id": "0558a72c-3341-4989-8d8c-84358613f63d",
+                "resourcePath": "objects\\obj_pwr_firerateup\\obj_pwr_firerateup.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0ce09b47-07c3-49bf-a952-e96f5bccc156",
             "Value": {
                 "id": "5635159e-3a8d-4224-9f13-a561eaab4a3b",
@@ -396,6 +404,14 @@
                 "id": "35a3cc0b-20c2-483f-9629-378b1c4b594b",
                 "resourcePath": "objects\\obj_enemybeam\\obj_enemybeam.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c58b1e00-cd20-4377-9589-8aeacda5e9ee",
+            "Value": {
+                "id": "1453fc1c-33f7-4cc4-a823-f7515a7f621d",
+                "resourcePath": "sprites\\sp_firerateup\\sp_firerateup.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
