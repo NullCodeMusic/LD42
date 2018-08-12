@@ -5,3 +5,4 @@ objSpeed-=0.5
 image_xscale=objSpeed/7
 image_yscale+=0.1
 if(objSpeed<=0){instance_destroy()}
+image_blend = global.borderColor

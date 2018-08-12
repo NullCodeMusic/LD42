@@ -17,7 +17,7 @@ global.shake=15
 
 global.enemyScore++
 
-i = irandom(8)
+i = irandom(50)
 if i = 1 then instance_create_depth(x,y,0,obj_pwr_firerateup)
 if i = 2 then instance_create_depth(x,y,0,obj_pwr_movespeedup)
 if i = 3 then instance_create_depth(x,y,0,obj_pwr_bulletwide)

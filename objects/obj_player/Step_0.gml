@@ -76,7 +76,31 @@ if(mouse_check_button(mb_left)&&cooldown<=0){
 
 if pwrwidetime>0{	
 	
-	with(instance_create_depth(x,y,0,obj_widebullet)){
+	with(instance_create_depth(x,y,0,obj_bullet)){
+	
+		dir = point_direction(x,y,mouse_x,mouse_y)-5
+		image_angle = dir
+		audio_play_sound(snd_schut,1,0)
+		
+		if(instance_exists(obj_generator)){
+				genID =instance_nearest(x,y,obj_generator)
+		genID.space --
+	}
+	}
+	
+	with(instance_create_depth(x,y,0,obj_bullet)){
+	
+		dir = point_direction(x,y,mouse_x,mouse_y)+5
+		image_angle = dir
+		audio_play_sound(snd_schut,1,0)
+		
+		if(instance_exists(obj_generator)){
+				genID =instance_nearest(x,y,obj_generator)
+		genID.space --
+	}
+	}	
+	
+	with(instance_create_depth(x,y,0,obj_bullet)){
 	
 		dir = point_direction(x,y,mouse_x,mouse_y)
 		image_angle = dir
@@ -86,8 +110,8 @@ if pwrwidetime>0{
 				genID =instance_nearest(x,y,obj_generator)
 		genID.space --
 	}
-		
-	}
+	}	
+	
 
 	
 	if pwrfiretime>0 then cooldown = 6

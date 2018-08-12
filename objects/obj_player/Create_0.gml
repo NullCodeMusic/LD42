@@ -15,6 +15,7 @@ pwr = ""
 
 pwrtime = 0
 iFrames = 0
+
 pwrfiretime=0
 pwrspeedtime=0
 pwrwidetime=0
