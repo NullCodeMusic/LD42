@@ -5,7 +5,7 @@ global.spaceDecay+=0.001
 space=hp
 
 
-if pwr="speedup" then objSpeed = 8 else objSpeed = 5
+if pwrspeedtime > 0 then objSpeed = 8 else objSpeed = 5
 
 
 if(mouse_check_button(mb_right)&&dodgeCharge<35){
@@ -74,7 +74,7 @@ if(outside >=ds_list_size(global.genList)){
 
 if(mouse_check_button(mb_left)&&cooldown<=0){
 
-if pwr="widebullet"{	
+if pwrwidetime > 0 {	
 	
 	with(instance_create_depth(x,y,0,obj_widebullet)){
 	
@@ -90,7 +90,7 @@ if pwr="widebullet"{
 	}
 
 	
-	if pwr = "firerateup" then cooldown = 6
+	if pwrfiretime > 0 then cooldown = 6
 	else cooldown = 18
 } else {
 
@@ -108,7 +108,7 @@ if pwr="widebullet"{
 	}
 
 	
-	if pwr = "firerateup" then cooldown = 6
+	if pwrfiretime > 0 then cooldown = 6
 	else cooldown = 18
 	
 }
@@ -137,8 +137,10 @@ instance_destroy()
 
 
 
-if pwrtime > 0 { pwrtime --}
-else pwr= ""
+if pwrfiretime > 0 { pwrfiretime --}
+if pwrspeedtime > 0 { pwrspeedtime --}
+if pwrwidetime > 0 { pwrwidetime --}
+
 
 
 
