@@ -23,16 +23,12 @@
         "6b28e094-4710-43d6-ad76-9575fcb2f7bb",
         "c58b1e00-cd20-4377-9589-8aeacda5e9ee",
 <<<<<<< HEAD
-<<<<<<< HEAD
         "c3fb5be0-bb31-4137-a156-8deab4338639",
         "0c84cb93-2cc1-40af-92cc-07c79de9e881"
 =======
         "95a28540-f880-4f3c-ba1a-cdb3ab5fd770",
         "7cf93e45-da0f-4981-9b18-e5e6447c267c"
 >>>>>>> 8669f67cb229cb21ed7d67907d84b5d74da24a2d
-=======
-        "c3fb5be0-bb31-4137-a156-8deab4338639"
->>>>>>> parent of 65bfb3b... yeet on those haters
     ],
     "filterType": "GMSprite",
     "folderName": "sprites",
