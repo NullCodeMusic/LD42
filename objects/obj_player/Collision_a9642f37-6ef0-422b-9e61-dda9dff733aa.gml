@@ -3,7 +3,7 @@
 
 if(iFrames=0){
 if(instance_exists(obj_generator)){
-enID =instance_nearest(x,y,obj_enemybeam)
+enID =instance_nearest(x,y,prnt_enemy)
 genID =instance_nearest(x,y,obj_generator)
 genID.space -= enID.hp
 }
