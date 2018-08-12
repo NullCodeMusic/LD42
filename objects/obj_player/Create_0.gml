@@ -13,3 +13,4 @@ ds_list_add(global.actorList,id)
 cooldown = 0
 pwr = ""
 pwrtime = 0
+iFrames = 0

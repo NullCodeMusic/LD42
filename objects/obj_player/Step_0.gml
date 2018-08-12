@@ -58,7 +58,7 @@ repeat(ds_list_size(global.genList)){
 	drawID ++
 
 }
-if(outside >=ds_list_size(global.genList)){
+if(outside >=ds_list_size(global.genList)&&iFrames = 0){
 
 	hp -=0.5
 
@@ -115,3 +115,7 @@ if pwrtime > 0 { pwrtime --}
 else pwr= ""
 
 
+if(floor(dodgeSpeed)>0){iFrames = 1
+	instance_create_depth(x,y,1,obj_hitdot)
+	
+	}else{iFrames = 0}
