@@ -16,5 +16,5 @@ y+=vMod*2
 x=round(x)
 y=round(y)
 	
-if(distance_to_object(obj_player)>550){instance_destroy()}	
+	
 }

@@ -11,3 +11,7 @@ space -= global.spaceDecay
 }
 
 if(space<=0){instance_destroy()}
+
+noise1=irandom_range(-1,1)
+noise2=irandom_range(-1,1)
+noise3=irandom_range(-1,1)
