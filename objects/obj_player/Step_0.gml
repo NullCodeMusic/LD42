@@ -4,7 +4,7 @@
 global.spaceDecay+=0.001
 space=hp
 
-if(mouse_check_button(mb_right)){
+if(mouse_check_button(mb_right)&&dodgeCharge<=35){
 
 	dodgeCharge++
 
