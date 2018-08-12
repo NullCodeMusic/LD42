@@ -151,6 +151,14 @@
             }
         },
         {
+            "Key": "35ac09af-0dbd-446d-a274-d6065286e103",
+            "Value": {
+                "id": "e9704b8d-24c7-4d71-9866-8f08cbfa5ae0",
+                "resourcePath": "objects\\obj_pwr_movespeedup\\obj_pwr_movespeedup.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "36b5de74-039d-4cc0-bb58-227c98f076e9",
             "Value": {
                 "id": "2d02e009-9afc-4a51-b2d8-848350ca1784",
@@ -260,6 +268,14 @@
                 "id": "655bcf65-7023-4d8d-a4f2-e4e1f47231a3",
                 "resourcePath": "views\\6c4a5ce0-2282-42c3-a22d-35d1ec9b9da8.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "6e685ec7-40e5-4124-963f-e53538b57835",
+            "Value": {
+                "id": "a1afb99e-4b16-4bf0-aca0-debfa858b68c",
+                "resourcePath": "objects\\obj_widebullet\\obj_widebullet.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -407,6 +423,14 @@
             }
         },
         {
+            "Key": "bc32b8f1-635b-4248-8b0b-15f6ad32ea21",
+            "Value": {
+                "id": "ad28bb54-c92f-40f6-86f0-c998909d3c7c",
+                "resourcePath": "sprites\\sp_widebullet\\sp_widebullet.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c0252054-578a-4cf4-acba-502c6b099dba",
             "Value": {
                 "id": "35a3cc0b-20c2-483f-9629-378b1c4b594b",
@@ -439,14 +463,6 @@
             }
         },
         {
-            "Key": "c8aa58c3-7029-4027-a70e-9d3cee0db5fa",
-            "Value": {
-                "id": "7a550a12-5eec-4a19-b45b-15b889212614",
-                "resourcePath": "objects\\object23\\object23.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "40c60310-d94d-4c7a-a866-8013fda68791",
@@ -467,6 +483,14 @@
             "Value": {
                 "id": "f229764f-6fb7-4d70-9860-18a1252930f9",
                 "resourcePath": "objects\\obj_enemy1\\obj_enemy1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d935ee92-abb4-4e8e-8657-0ed98dc7b71a",
+            "Value": {
+                "id": "9953ea76-54b5-4f14-82bc-46c03ec4a4b1",
+                "resourcePath": "objects\\obj_pwr_bulletwide\\obj_pwr_bulletwide.yy",
                 "resourceType": "GMObject"
             }
         },

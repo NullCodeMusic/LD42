@@ -19,7 +19,7 @@ pwrfiretime=0
 pwrspeedtime=0
 pwrwidetime=0
 
-pwrtime = 0
-
-pwrtime = 0
+pwrwidetime = 0
+pwrspeedtime =0
+pwrfiretime = 0
 
