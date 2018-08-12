@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-global.spaceDecay+=0.001
+global.spaceDecay+=0.0005
 space=hp
 
 
