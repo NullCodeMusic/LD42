@@ -1,5 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
 randomize()
-room_restart()
+room_goto(menu)
 audio_stop_all()
