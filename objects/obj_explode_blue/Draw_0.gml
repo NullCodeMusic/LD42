@@ -1,0 +1,1 @@
+//draw_circle_color(x,y,crntSize,$f0ae00,$f0ae00,true)
