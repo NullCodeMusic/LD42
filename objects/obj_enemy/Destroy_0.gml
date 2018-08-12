@@ -6,7 +6,7 @@ repeat(bleed){
 	with(
 instance_create_depth(x,y,obj_generator,0)){
 
-space = 60
+space = 65
 
 }
 
