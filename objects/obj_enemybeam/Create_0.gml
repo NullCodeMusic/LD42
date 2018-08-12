@@ -5,7 +5,7 @@ objSpeed = 40
 hMod = 0
 vMod = 0
 objSlow = 0.1
-hp = 15
+hp = 600
 audio_play_sound(sound3,1,0)
 bleed = 2
 if(instance_exists(obj_player)){

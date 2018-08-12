@@ -62,7 +62,7 @@ repeat(ds_list_size(global.genList)){
 	drawID ++
 
 }
-if(outside >=ds_list_size(global.genList)&&iFrames = 0){
+if(outside >=ds_list_size(global.genList)){
 
 	hp -=0.5
 
@@ -141,9 +141,12 @@ if pwrtime > 0 { pwrtime --}
 else pwr= ""
 
 
+<<<<<<< HEAD
 
 
 if(floor(dodgeSpeed)>0){iFrames = 1
 	instance_create_depth(x,y,1,obj_hitdot)
 	
 	}else{iFrames = 0}
+=======
+>>>>>>> parent of 65bfb3b... yeet on those haters
