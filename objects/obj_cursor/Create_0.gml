@@ -1,0 +1,3 @@
+cursor_sprite=smlcursor
+
+window_set_cursor(cr_none)
