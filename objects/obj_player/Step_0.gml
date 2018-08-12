@@ -4,6 +4,10 @@
 global.spaceDecay+=0.001
 space=hp
 
+
+if pwr="speedup" then objSpeed = 8 else objSpeed = 5
+
+
 if(mouse_check_button(mb_right)&&dodgeCharge<35){
 
 	dodgeCharge++
@@ -70,6 +74,26 @@ if(outside >=ds_list_size(global.genList)){
 
 if(mouse_check_button(mb_left)&&cooldown<=0){
 
+if pwr="widebullet"{	
+	
+	with(instance_create_depth(x,y,0,obj_widebullet)){
+	
+		dir = point_direction(x,y,mouse_x,mouse_y)
+		image_angle = dir
+		audio_play_sound(snd_schut,1,0)
+		
+		if(instance_exists(obj_generator)){
+				genID =instance_nearest(x,y,obj_generator)
+		genID.space --
+	}
+		
+	}
+
+	
+	if pwr = "firerateup" then cooldown = 6
+	else cooldown = 18
+} else {
+
 	with(instance_create_depth(x,y,0,obj_bullet)){
 	
 		dir = point_direction(x,y,mouse_x,mouse_y)
@@ -87,6 +111,8 @@ if(mouse_check_button(mb_left)&&cooldown<=0){
 	if pwr = "firerateup" then cooldown = 6
 	else cooldown = 18
 	
+}
+
 }
 
 if(cooldown > 0){
@@ -113,5 +139,7 @@ instance_destroy()
 
 if pwrtime > 0 { pwrtime --}
 else pwr= ""
+
+
 
 
