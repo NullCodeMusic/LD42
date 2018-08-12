@@ -12,16 +12,14 @@ ds_list_add(global.genList,id)
 ds_list_add(global.actorList,id)
 cooldown = 0
 pwr = ""
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 pwrtime = 0
 iFrames = 0
 pwrfiretime=0
 pwrspeedtime=0
 pwrwidetime=0
-=======
+
 pwrtime = 0
->>>>>>> parent of 8669f67... ffff
-=======
+
 pwrtime = 0
->>>>>>> parent of 65bfb3b... yeet on those haters
+
