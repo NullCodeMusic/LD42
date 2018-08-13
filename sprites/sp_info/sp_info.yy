@@ -2,7 +2,7 @@
     "id": "93d7a3e2-f67e-4762-80b2-9b0d7b4c3135",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "sprite28",
+    "name": "sp_info",
     "For3D": false,
     "HTile": false,
     "VTile": false,
@@ -105,7 +105,7 @@
             "isLocked": false,
             "name": "default",
             "opacity": 100,
-            "visible": true
+            "visible": false
         }
     ],
     "origin": 0,
