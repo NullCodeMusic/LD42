@@ -7,3 +7,4 @@ with(instance_create_depth(x,y,depth,obj_explode_blue)){
 	maxSize = 25
 
 }
+audio_play_sound(snd_death,1,0)

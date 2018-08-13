@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-global.spaceDecay+=0.0005
+global.spaceDecay+=global.realScore/1000000
 space=hp
 
 
@@ -92,7 +92,7 @@ if pwrwidetime>0{
 	
 		dir = point_direction(x,y,mouse_x,mouse_y)+5
 		image_angle = dir
-		audio_play_sound(snd_schut,1,0)
+		
 		
 		if(instance_exists(obj_generator)){
 				genID =instance_nearest(x,y,obj_generator)
@@ -104,7 +104,7 @@ if pwrwidetime>0{
 	
 		dir = point_direction(x,y,mouse_x,mouse_y)
 		image_angle = dir
-		audio_play_sound(snd_schut,1,0)
+		
 		
 		if(instance_exists(obj_generator)){
 				genID =instance_nearest(x,y,obj_generator)

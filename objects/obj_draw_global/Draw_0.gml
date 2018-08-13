@@ -1,11 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-
+draw_set_font(fnt_1)
 
 
 //fullscreen scaling
-
 
 application_surface_draw_enable(false)
 
@@ -25,6 +24,10 @@ global.xOffset=(global.monitorW-800)/2
 global.yOffset=(global.monitorH-500)/2
 surface_resize(application_surface,800,500)
 }
+
+
+if(room = rm1){
+
 //space outline
 drawID = 0
 repeat(ds_list_size(global.genList)){
@@ -101,18 +104,32 @@ repeat(ds_list_size(global.actorList)){
 
 }
 
+
+
+//endgame score
 if(!instance_exists(obj_player)){
 	
 draw_rectangle_color(0,0,room_width,room_height,$000000,$000000,$000000,$000000,false)
 tAlpha+=0.003
 draw_set_halign(fa_center)
-global.borderColor=$afafaf
 draw_text_color(obj_camera.x,obj_camera.y-20,"You scored "+string(global.crntScore*10+global.enemyScore)+" points.",global.borderColor,global.borderColor,global.borderColor,global.borderColor,tAlpha)
-draw_text_color(obj_camera.x,obj_camera.y,"Your highscore is "+string(global.crntScore*10+global.enemyScore)+".",global.borderColor,global.borderColor,global.borderColor,global.borderColor,tAlpha)
-draw_text_color(obj_camera.x,obj_camera.y+20,"Press R to retry.",global.borderColor,global.borderColor,global.borderColor,global.borderColor,tAlpha)}
+draw_text_color(obj_camera.x,obj_camera.y-40,"Your highscore is "+string(global.highScore)+".",global.borderColor,global.borderColor,global.borderColor,global.borderColor,tAlpha)
+draw_text_color(obj_camera.x,obj_camera.y+20,"Press ESC to return to menu.",global.borderColor,global.borderColor,global.borderColor,global.borderColor,tAlpha)
+draw_text_color(obj_camera.x,obj_camera.y+40,"Press R to retry.",global.borderColor,global.borderColor,global.borderColor,global.borderColor,tAlpha)
+}else{
 
-draw_sprite(smlcursor,0,mouse_x,mouse_y)
+draw_text_color(obj_camera.x-260,obj_camera.y+200,string(global.crntScore*10+global.enemyScore),global.borderColor,global.borderColor,global.borderColor,global.borderColor,1)
+
+}
 
 //background
 
 background_color = global.borderColor
+
+
+//end of game specific
+}
+
+//cursor
+
+draw_sprite(smlcursor,0,mouse_x,mouse_y)

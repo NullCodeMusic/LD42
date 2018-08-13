@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-if(global.spaceDecay>=0){
+if(global.spaceDecay>0){
 	
 space -= sqrt(global.spaceDecay)
 

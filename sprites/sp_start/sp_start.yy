@@ -6,10 +6,10 @@
     "For3D": false,
     "HTile": false,
     "VTile": false,
-    "bbox_bottom": 113,
-    "bbox_left": 6,
+    "bbox_bottom": 121,
+    "bbox_left": 0,
     "bbox_right": 199,
-    "bbox_top": 28,
+    "bbox_top": 22,
     "bboxmode": 0,
     "colkind": 1,
     "coltolerance": 0,
@@ -29,11 +29,18 @@
             },
             "images": [
                 {
-                    "id": "882480b0-c010-49f2-bed6-c2b7e8423084",
+                    "id": "ca29b542-9131-4a90-aea8-6d12d8a2bdc8",
                     "modelName": "GMSpriteImage",
                     "mvc": "1.0",
                     "FrameId": "13522b9b-5721-456f-b918-27c606084cda",
-                    "LayerId": "92400a45-7ceb-46b6-97eb-7cad458b69b3"
+                    "LayerId": "a2ae939f-d2b2-486f-b637-f0b683e1fb39"
+                },
+                {
+                    "id": "d66bfad7-e1ff-44e8-bb45-50a3efa18670",
+                    "modelName": "GMSpriteImage",
+                    "mvc": "1.0",
+                    "FrameId": "13522b9b-5721-456f-b918-27c606084cda",
+                    "LayerId": "84461bef-f5b1-403f-a20e-bf05277b5423"
                 }
             ]
         }
@@ -43,13 +50,24 @@
     "height": 200,
     "layers": [
         {
-            "id": "92400a45-7ceb-46b6-97eb-7cad458b69b3",
+            "id": "84461bef-f5b1-403f-a20e-bf05277b5423",
             "modelName": "GMImageLayer",
             "mvc": "1.0",
             "SpriteId": "2b8d6f05-1113-47cb-84ea-8b1e04ee0cc0",
             "blendMode": 0,
             "isLocked": false,
-            "name": "default",
+            "name": "default (2) (2)",
+            "opacity": 100,
+            "visible": true
+        },
+        {
+            "id": "a2ae939f-d2b2-486f-b637-f0b683e1fb39",
+            "modelName": "GMImageLayer",
+            "mvc": "1.0",
+            "SpriteId": "2b8d6f05-1113-47cb-84ea-8b1e04ee0cc0",
+            "blendMode": 0,
+            "isLocked": false,
+            "name": "default (2)",
             "opacity": 100,
             "visible": true
         }

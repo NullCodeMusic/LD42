@@ -1,2 +1,2 @@
-if fs = 0 then fs = 1
-else if fs = 1 then fs = 0
+if global.fs = 0 then global.fs = 1
+else if global.fs = 1 then global.fs = 0
