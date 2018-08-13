@@ -44,3 +44,4 @@ charge*=distance_to_object(obj_player)/200
 image_index = floor(charge)
 
 }
+if(!instance_exists(obj_player)){instance_deactivate_object(obj_enemy2)}
