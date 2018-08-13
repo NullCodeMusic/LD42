@@ -5,12 +5,12 @@ global.spaceDecay+=0.0005
 space=hp
 
 
-if pwrspeedtime>0 then objSpeed = 8 else objSpeed = 5
+objSpeed = 5
 
 
 if(mouse_check_button(mb_right)&&dodgeCharge<35){
 
-	dodgeCharge++
+	dodgeCharge+=5
 
 }
 

@@ -107,7 +107,12 @@ draw_rectangle_color(0,0,room_width,room_height,$000000,$000000,$000000,$000000,
 tAlpha+=0.003
 draw_set_halign(fa_center)
 global.borderColor=$afafaf
-draw_text_color(obj_camera.x,obj_camera.y,"You scored "+string(global.crntScore*10+global.enemyScore)+" points.",global.borderColor,global.borderColor,global.borderColor,global.borderColor,tAlpha)
+draw_text_color(obj_camera.x,obj_camera.y-20,"You scored "+string(global.crntScore*10+global.enemyScore)+" points.",global.borderColor,global.borderColor,global.borderColor,global.borderColor,tAlpha)
+draw_text_color(obj_camera.x,obj_camera.y,"Your highscore is "+string(global.crntScore*10+global.enemyScore)+".",global.borderColor,global.borderColor,global.borderColor,global.borderColor,tAlpha)
 draw_text_color(obj_camera.x,obj_camera.y+20,"Press R to retry.",global.borderColor,global.borderColor,global.borderColor,global.borderColor,tAlpha)}
 
 draw_sprite(smlcursor,0,mouse_x,mouse_y)
+
+//background
+
+background_color = global.borderColor
