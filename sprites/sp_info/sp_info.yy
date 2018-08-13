@@ -55,6 +55,20 @@
                     "mvc": "1.0",
                     "FrameId": "3b8cf82e-d39e-4fc9-b64b-517ccad6d22d",
                     "LayerId": "d72cb01e-47dd-40b3-a037-cecbe65d2e10"
+                },
+                {
+                    "id": "104ad9ff-5cec-4576-a087-7a1d720e812d",
+                    "modelName": "GMSpriteImage",
+                    "mvc": "1.0",
+                    "FrameId": "3b8cf82e-d39e-4fc9-b64b-517ccad6d22d",
+                    "LayerId": "abac5260-5020-49bb-8a1f-b2baf5472caa"
+                },
+                {
+                    "id": "1160eb21-9eb6-4cc1-af47-8deae5a10fa9",
+                    "modelName": "GMSpriteImage",
+                    "mvc": "1.0",
+                    "FrameId": "3b8cf82e-d39e-4fc9-b64b-517ccad6d22d",
+                    "LayerId": "199bbe88-9d74-48bd-a1df-ee537403333f"
                 }
             ]
         }
@@ -86,6 +100,28 @@
             "visible": true
         },
         {
+            "id": "199bbe88-9d74-48bd-a1df-ee537403333f",
+            "modelName": "GMImageLayer",
+            "mvc": "1.0",
+            "SpriteId": "93d7a3e2-f67e-4762-80b2-9b0d7b4c3135",
+            "blendMode": 0,
+            "isLocked": false,
+            "name": "Layer 2 (2)",
+            "opacity": 100,
+            "visible": true
+        },
+        {
+            "id": "abac5260-5020-49bb-8a1f-b2baf5472caa",
+            "modelName": "GMImageLayer",
+            "mvc": "1.0",
+            "SpriteId": "93d7a3e2-f67e-4762-80b2-9b0d7b4c3135",
+            "blendMode": 0,
+            "isLocked": false,
+            "name": "Layer 2",
+            "opacity": 100,
+            "visible": true
+        },
+        {
             "id": "e389c960-8d12-48f4-b7ba-9913240a69fb",
             "modelName": "GMImageLayer",
             "mvc": "1.0",
@@ -105,7 +141,7 @@
             "isLocked": false,
             "name": "default",
             "opacity": 100,
-            "visible": false
+            "visible": true
         }
     ],
     "origin": 0,
